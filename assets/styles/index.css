@@ -1,1 +1,49 @@
-/*# sourceMappingURL=index.css.map */
+@font-face {
+  font-family: "allura-regular";
+  src: url(../fonts/Allura-Regular.ttf);
+}
+@font-face {
+  font-family: "poppins-medium";
+  src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "roboto-light";
+  src: url(../fonts/Roboto-Light.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style: none;
+}
+
+body:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  top: 0;
+  left: 0;
+  -webkit-animation: animBefore 1.5s forwards;
+          animation: animBefore 1.5s forwards;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+}
+@-webkit-keyframes animBefore {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes animBefore {
+  to {
+    opacity: 0;
+  }
+}/*# sourceMappingURL=index.css.map */
