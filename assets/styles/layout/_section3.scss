@@ -1,0 +1,48 @@
+.section3 {
+    width: 75%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background: #000;
+    .reservation-left {
+        padding: 10px;
+        margin: 20px;
+        border: 1px dotted $white1;
+        text-align: center;
+
+        h5 {
+            font-family: $font1;
+            padding-top: 20px;
+            padding-bottom: 0;
+            font-size: 1.5rem;
+            color: $orange;
+        }
+        h4 {
+            font-family: $font2;
+            text-transform: uppercase;
+            padding-bottom: 20px;
+            color: $white1;
+        }
+        img {
+            height: 30px;
+        }
+        .dates {
+            h4 {
+                padding: 30px 0 10px;
+                color: $orange;
+                font-family: $font3;
+                font-weight: 700;
+            }
+            p {
+                font-size: 0.8rem;
+                font-weight: 500;
+                color: $white1;
+            }
+        }
+        h6 {
+            padding: 20px 0 15px;
+            font-size: 1rem;
+            color: $orange;
+        }
+    }
+}

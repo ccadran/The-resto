@@ -14,7 +14,9 @@ $font1: allura-regular, sans-serif;
 $font2: poppins-medium, serif;
 $font3: roboto-light, sans-serif;
 $white1: #fff;
+$orange: rgba(193, 146, 46, 0.918);
 $grey1: rgb(238, 238, 238);
+$background: rgb(42, 42, 42);
 * {
     margin: 0;
     padding: 0;
@@ -27,6 +29,7 @@ li {
     list-style: none;
 }
 body {
+    background: $background;
     &:before {
         content: "";
         position: absolute;

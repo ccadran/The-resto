@@ -24,6 +24,9 @@ li {
   list-style: none;
 }
 
+body {
+  background: rgb(42, 42, 42);
+}
 body:before {
   content: "";
   position: absolute;
@@ -116,13 +119,13 @@ header .main-header img {
 .section1 .left {
   margin: 15px;
   padding: 30px 15px;
-  border: 1px dotted rgb(193, 141, 52);
+  border: 1px dotted rgba(193, 146, 46, 0.918);
   text-align: center;
   justify-content: center;
 }
 .section1 .left h3 {
   font-family: allura-regular, sans-serif;
-  color: rgba(189, 144, 46, 0.699);
+  color: rgba(193, 146, 46, 0.918);
   font-size: 1.5rem;
 }
 .section1 .left h4 {
@@ -149,4 +152,130 @@ header .main-header img {
 }
 .section1 .right {
   background: url(/assets/img/store-01.jpg) center/cover;
+}
+
+.section2 {
+  background: rgb(42, 42, 42);
+  position: relative;
+}
+.section2 .section2-content {
+  max-width: 60%;
+  margin: 0 auto;
+}
+.section2 .section2-content h4 {
+  padding: 35px 0;
+  text-align: center;
+  font-family: allura-regular, sans-serif;
+  font-size: 2rem;
+  color: rgba(193, 146, 46, 0.918);
+}
+.section2 .section2-content #plate {
+  height: 25px;
+  display: block;
+  margin: 0 auto;
+}
+.section2 .section2-content .nav2 {
+  padding-top: 20px;
+  width: 85%;
+  margin: 0 auto;
+}
+.section2 .section2-content .nav2 ul {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-family: roboto-light, sans-serif;
+  font-size: 0.8rem;
+}
+.section2 .section2-content .nav2 ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #fff;
+}
+.section2 .menus {
+  position: relative;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  background: rgb(238, 238, 238);
+  padding: 20px 0 10px;
+  border-top: 4px solid rgba(193, 146, 46, 0.918);
+}
+.section2 .menus .plats {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "img p2 price" "img p price";
+  font-family: roboto-light, sans-serif;
+  align-items: center;
+  border-bottom: 1px dotted #000;
+  margin: 0 15px;
+}
+.section2 .menus .plats img {
+  height: 65%;
+  border-radius: 30px;
+  grid-area: img;
+}
+.section2 .menus .plats h5 {
+  font-size: 1rem;
+  grid-area: p2;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+.section2 .menus .plats p {
+  padding-left: 15px;
+  grid-area: p;
+  font-size: 0.8rem;
+  padding-bottom: 15px;
+}
+.section2 .menus .plats h4 {
+  grid-area: price;
+  font-size: 1rem;
+}
+
+.section3 {
+  width: 75%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background: #000;
+}
+.section3 .reservation-left {
+  padding: 10px;
+  margin: 20px;
+  border: 1px dotted #fff;
+  text-align: center;
+}
+.section3 .reservation-left h5 {
+  font-family: allura-regular, sans-serif;
+  padding-top: 20px;
+  padding-bottom: 0;
+  font-size: 1.5rem;
+  color: rgba(193, 146, 46, 0.918);
+}
+.section3 .reservation-left h4 {
+  font-family: poppins-medium, serif;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  color: #fff;
+}
+.section3 .reservation-left img {
+  height: 30px;
+}
+.section3 .reservation-left .dates h4 {
+  padding: 30px 0 10px;
+  color: rgba(193, 146, 46, 0.918);
+  font-family: roboto-light, sans-serif;
+  font-weight: 700;
+}
+.section3 .reservation-left .dates p {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #fff;
+}
+.section3 .reservation-left h6 {
+  padding: 20px 0 15px;
+  font-size: 1rem;
+  color: rgba(193, 146, 46, 0.918);
 }/*# sourceMappingURL=index.css.map */

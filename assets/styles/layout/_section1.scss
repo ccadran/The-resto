@@ -6,13 +6,13 @@
     .left {
         margin: 15px;
         padding: 30px 15px;
-        border: 1px dotted rgb(193, 141, 52);
+        border: 1px dotted $orange;
         text-align: center;
         justify-content: center;
 
         h3 {
             font-family: $font1;
-            color: rgba(189, 144, 46, 0.699);
+            color: $orange;
             font-size: 1.5rem;
         }
         h4 {
