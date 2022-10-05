@@ -1,0 +1,44 @@
+.section1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background: $grey1;
+
+    .left {
+        margin: 15px;
+        padding: 30px 15px;
+        border: 1px dotted rgb(193, 141, 52);
+        text-align: center;
+        justify-content: center;
+
+        h3 {
+            font-family: $font1;
+            color: rgba(189, 144, 46, 0.699);
+            font-size: 1.5rem;
+        }
+        h4 {
+            font-family: $font2;
+            padding-bottom: 15px;
+        }
+        img {
+            height: 25px;
+        }
+        p {
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        #avatar {
+            height: 30px;
+            border-radius: 25px;
+        }
+        #russel {
+            padding-bottom: 0;
+        }
+        h5 {
+            color: rgba(128, 128, 128, 0.598);
+            padding-bottom: 20px;
+        }
+    }
+    .right {
+        background: url(/assets/img/store-01.jpg) center/cover;
+    }
+}

@@ -46,4 +46,107 @@ body:before {
   to {
     opacity: 0;
   }
+}
+
+header {
+  background: url(/assets/img/bg-slider-06.jpg) center/cover;
+  min-height: 600px;
+}
+header nav {
+  padding-top: 20px;
+  color: white;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  align-items: center;
+  width: 75%;
+  justify-content: center;
+  margin: 0 auto;
+}
+header nav h3 {
+  font-family: allura-regular, sans-serif;
+  font-size: 2rem;
+}
+header nav ul {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav ul li {
+  padding: 0 10px;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+}
+header .main-header {
+  padding-top: 70px;
+  margin: 0 auto;
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+header .main-header h3 {
+  font-family: allura-regular, sans-serif;
+  color: rgba(189, 144, 46, 0.699);
+  font-size: 2.5rem;
+}
+header .main-header h1 {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 3rem;
+  padding-bottom: 20px;
+}
+header .main-header h4 {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 100;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  padding-top: 20px;
+}
+header .main-header img {
+  height: 30px;
+}
+
+.section1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background: rgb(238, 238, 238);
+}
+.section1 .left {
+  margin: 15px;
+  padding: 30px 15px;
+  border: 1px dotted rgb(193, 141, 52);
+  text-align: center;
+  justify-content: center;
+}
+.section1 .left h3 {
+  font-family: allura-regular, sans-serif;
+  color: rgba(189, 144, 46, 0.699);
+  font-size: 1.5rem;
+}
+.section1 .left h4 {
+  font-family: poppins-medium, serif;
+  padding-bottom: 15px;
+}
+.section1 .left img {
+  height: 25px;
+}
+.section1 .left p {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.section1 .left #avatar {
+  height: 30px;
+  border-radius: 25px;
+}
+.section1 .left #russel {
+  padding-bottom: 0;
+}
+.section1 .left h5 {
+  color: rgba(128, 128, 128, 0.598);
+  padding-bottom: 20px;
+}
+.section1 .right {
+  background: url(/assets/img/store-01.jpg) center/cover;
 }/*# sourceMappingURL=index.css.map */
