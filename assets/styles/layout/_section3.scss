@@ -45,4 +45,23 @@
             color: $orange;
         }
     }
+    .reservations-right {
+        text-align: center;
+        background: $white1;
+        h4 {
+            padding-top: 80px;
+            font-family: $font1;
+            color: $orange;
+            font-size: 2.5rem;
+        }
+        h3 {
+            font-family: $font2;
+            text-transform: uppercase;
+            font-size: 1.5rem;
+            padding-bottom: 35px;
+        }
+        img {
+            height: 30px;
+        }
+    }
 }
