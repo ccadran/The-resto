@@ -1,6 +1,5 @@
 footer {
     margin-top: 200px;
-
     background: url(/assets/img/bg-footer.jpg);
     width: 100%;
     .footer-content {
@@ -22,6 +21,34 @@ footer {
             font-family: $font3;
             line-height: 25px;
             font-size: 0.8rem;
+        }
+    }
+    .footer-right {
+        margin-top: 50px;
+        margin-left: 55px;
+        h4 {
+            text-transform: uppercase;
+            color: $white1;
+            font-family: $font2;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+        input {
+            background: transparent;
+            border: 0.2px solid $orange;
+            padding: 5px;
+            padding-left: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .follow {
+            display: flex;
+            ul {
+                display: flex;
+                width: 35%;
+                justify-content: space-around;
+                color: grey;
+            }
         }
     }
 }

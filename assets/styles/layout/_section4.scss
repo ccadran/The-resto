@@ -17,7 +17,7 @@
     }
     .events {
         width: 70%;
-        margin: 0 auto;
+        margin: 20px auto;
         display: grid;
         grid-template-columns: 55% 45%;
         .events-left {
@@ -115,7 +115,6 @@
                     }
                     h5 {
                         font-family: $font3;
-
                         text-transform: uppercase;
                         font-weight: 800;
                         text-align: center;

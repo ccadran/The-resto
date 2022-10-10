@@ -79,6 +79,11 @@ header nav ul li {
   padding: 0 10px;
   text-transform: uppercase;
   font-size: 0.6rem;
+  transition: 0.5ms;
+}
+header nav ul li:hover {
+  cursor: pointer;
+  transform: scale(1.05);
 }
 header .main-header {
   padding-top: 70px;
@@ -155,8 +160,8 @@ header .main-header img {
 }
 
 .section2 {
-  background: rgb(42, 42, 42);
   position: relative;
+  margin-bottom: 200px;
 }
 .section2 .section2-content {
   max-width: 60%;
@@ -191,7 +196,6 @@ header .main-header img {
   border-bottom: 1px solid #fff;
 }
 .section2 .menus {
-  position: relative;
   margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -232,6 +236,16 @@ header .main-header img {
 .section2 .menus .plats h4 {
   grid-area: price;
   font-size: 1rem;
+}
+.section2::after {
+  position: absolute;
+  content: "";
+  background: url(/assets/img/bg-menu-01.jpg);
+  background-size: 100%;
+  height: 60%;
+  width: 100%;
+  bottom: -50px;
+  z-index: -2;
 }
 
 .section3 {
@@ -317,7 +331,7 @@ header .main-header img {
 }
 .section4 .events {
   width: 70%;
-  margin: 0 auto;
+  margin: 20px auto;
   display: grid;
   grid-template-columns: 55% 45%;
 }
@@ -424,12 +438,14 @@ header .main-header img {
 }
 
 .section5 {
+  position: relative;
+}
+.section5 .citations {
   width: 70%;
   margin: 150px auto;
   background: #fff;
-  position: relative;
 }
-.section5:before {
+.section5 .citations:before {
   content: url(/assets/img/avatar-02.jpg);
   top: -15%;
   border-radius: 25px;
@@ -439,7 +455,7 @@ header .main-header img {
   height: 30px;
   scale: 50%;
 }
-.section5 p {
+.section5 .citations p {
   text-align: center;
   width: 80%;
   margin: 0 auto;
@@ -448,19 +464,29 @@ header .main-header img {
   font-family: roboto-light, sans-serif;
   line-height: 35px;
 }
-.section5 h4 {
+.section5 .citations h4 {
   font-size: 1.5rem;
   color: rgb(42, 42, 42);
   font-family: roboto-light, sans-serif;
   text-align: center;
   padding-bottom: 20px;
 }
-.section5 h5 {
+.section5 .citations h5 {
   color: rgba(193, 146, 46, 0.918);
   text-align: center;
   padding-bottom: 50px;
   font-size: 1rem;
   font-weight: 500;
+}
+.section5::after {
+  position: absolute;
+  content: "";
+  background: url(/assets/img/gmap.jpg);
+  background-size: 100%;
+  height: 100%;
+  width: 100%;
+  bottom: -200px;
+  z-index: -2;
 }
 
 footer {
@@ -488,4 +514,32 @@ footer .footer-left p {
   font-family: roboto-light, sans-serif;
   line-height: 25px;
   font-size: 0.8rem;
+}
+footer .footer-right {
+  margin-top: 50px;
+  margin-left: 55px;
+}
+footer .footer-right h4 {
+  text-transform: uppercase;
+  color: #fff;
+  font-family: poppins-medium, serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+footer .footer-right input {
+  background: transparent;
+  border: 0.2px solid rgba(193, 146, 46, 0.918);
+  padding: 5px;
+  padding-left: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+footer .footer-right .follow {
+  display: flex;
+}
+footer .footer-right .follow ul {
+  display: flex;
+  width: 35%;
+  justify-content: space-around;
+  color: grey;
 }/*# sourceMappingURL=index.css.map */
