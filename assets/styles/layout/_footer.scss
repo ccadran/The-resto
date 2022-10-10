@@ -1,0 +1,27 @@
+footer {
+    margin-top: 200px;
+
+    background: url(/assets/img/bg-footer.jpg);
+    width: 100%;
+    .footer-content {
+        width: 70%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .footer-left {
+        margin: 50px 0;
+        h4 {
+            font-family: $font1;
+            color: $orange;
+            font-size: 2.5rem;
+        }
+        p {
+            color: $white1;
+            margin-top: 20px;
+            font-family: $font3;
+            line-height: 25px;
+            font-size: 0.8rem;
+        }
+    }
+}

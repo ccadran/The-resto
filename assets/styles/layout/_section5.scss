@@ -1,0 +1,39 @@
+.section5 {
+    width: 70%;
+    margin: 150px auto;
+    background: $white1;
+    position: relative;
+    &:before {
+        content: url(/assets/img/avatar-02.jpg);
+        top: -15%;
+        border-radius: 25px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-80%);
+        height: 30px;
+        scale: 50%;
+    }
+    p {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        font-family: $font3;
+        line-height: 35px;
+    }
+    h4 {
+        font-size: 1.5rem;
+        color: $background;
+        font-family: $font3;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    h5 {
+        color: $orange;
+        text-align: center;
+        padding-bottom: 50px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+}
